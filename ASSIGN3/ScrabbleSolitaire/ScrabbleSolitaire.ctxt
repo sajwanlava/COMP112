@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ScrabbleSolitaire()
+comment0.text=\r\n\ Set\ up\ the\ GUI\ (buttons\ and\ mouse\ listener)\ and\ restart\ the\ game\r\n
+comment1.params=action\ x\ y
+comment1.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment1.text=\r\n\ User\ can\ drag\ a\ tile\ from\ the\ board\ or\ the\ rack\ to\ a\ space\ on\ the\ board\ or\ the\ rack.\r\n\ The\ user\ can\ also\ drag\ a\ tile\ from\ the\ board\ or\ rack\ to\ a\ full\ place\ on\ the\ rack\ if\ the\r\n\ \ \ \ tiles\ on\ the\ rack\ could\ be\ shifted\ up\ or\ down\ to\ make\ space\ for\ it.\r\n
+comment2.params=
+comment2.target=void\ isValid()
+comment2.text=\r\n\ Is\ the\ current\ board\ a\ valid\ play?\r\n
+comment3.params=
+comment3.target=void\ commit()
+comment3.text=\r\n\ Commit\ to\ the\ current\ play\r\n
+comment4.params=
+comment4.target=void\ restart()
+comment4.text=\ Restart\ the\ game\:\r\n\ set\ the\ board\ to\ be\ empty,\r\n\ refill\ the\ bag\ to\ contain\ all\ the\ tiles\r\n\ reset\ the\ rack\ and\ fill\ it\r\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\r\n\ Draw\ the\ board,\ rack,\ and\ hand\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

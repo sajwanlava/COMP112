@@ -1,0 +1,41 @@
+------------------------------------------------------------------------
+This is the project README file. Here, you should describe your project.
+Tell the reader (someone who does not know anything about this project)
+all he/she needs to know. The comments should usually include at least:
+------------------------------------------------------------------------
+
+PROJECT TITLE: DiagramEditor
+PURPOSE OF PROJECT: To make a program which can create and edit diagrams of rectangles, ovals, hexagons and connecting lines.
+VERSION or DATE: 2017
+
+resizing, moving, deleting, setting text, and adding/removing lines work.
+
+RESIZING
+So I resized the current shape by changing the size by the amount the mouse was moved until it was let go. The shape would become bigger from which ever direction the mouse was moved. 
+ 
+MOVING
+This moves the current shape to where the Mouse is released by changing its position by the changed-pressed. And consequently all the points will be changed.
+
+DELETING
+Finds the shape that was under the position just pressed, and removes it from the ArrayList of shapes. 
+
+SETTING TEXT
+Had each shape have the parameter of text set to null, but if the user typed in text in the text box, it would set as the Text and drawn in the redraw method, so also if the shape were to move/be resized, it would get redrawn with the new coordinates.
+
+CONNECTING LINES
+I made an arraylist for the lines in another class and stored the two connecting shapes in variables and got their specific x and y coordinates for the start and end coordinates. For removing I deleted the lines from the arraylist. 
+
+
+BUGS
+- Sometimes resizes when it's not meant to, I don't know why it's doing this.
+- Hexagons are sometimes funny as it occassionally won't draw the correct size, I assume this is something to do with the equation to code each point.
+-Connect works if you drag it a little, but the line comes up funny. 
+
+WAS LATE HAND IN BECAUSE THE HEXAGONS WEREN'T WORKING AND I REALISED IT WAS BECAUSE IN THE CONSTRUCTOR I SPELT HEXAGONS WRONG SO IT WASN'T EVEN GOING IN THE CLASS. 
+
+
+*Worked with Fariha Tash on connect, text and hexagon. 
+
+    
+
+

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Tracer()
+comment0.text=\ \r\n\ \ Construct\ a\ new\ Tracer\ object\ and\ set\ up\ the\ GUI\r\n
+comment1.params=action\ x\ y
+comment1.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment1.text=Respond\ to\ mouse\ actions,\ particularly\ to\ "released"
+comment2.params=
+comment2.target=void\ printLength()
+comment3.params=
+comment3.target=void\ startLine()
+comment3.text=\r\n\ Clear\ the\ screen,\ redisplay\ the\ image,\ and\ get\ ready\ to\ start\ a\ new\ line.\r\n\ Sets\ the\ values\ of\ the\ fields\ storing\ the\ current\ point\ to\ -1\r\n
+comment4.params=
+comment4.target=void\ chooseImage()
+comment5.params=arguments
+comment5.target=void\ main(java.lang.String[])
+numComments=6

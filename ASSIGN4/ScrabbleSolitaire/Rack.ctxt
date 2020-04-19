@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ reset()
+comment0.text=\r\n\ Reset\ the\ rack\ to\ be\ empty\r\n
+comment1.params=x\ y
+comment1.target=boolean\ on(double,\ double)
+comment1.text=\r\n\ Returns\ true\ iff\ (x,y)\ is\ on\ the\ rack\r\n
+comment2.params=x\ y
+comment2.target=int\ index(double,\ double)
+comment2.text=\r\n\ Return\ the\ index\ of\ the\ cell\ under\ the\ position\ (x,\ y)\r\n
+comment3.params=pos
+comment3.target=Tile\ pickup(int)
+comment3.text=\r\n\ Remove\ and\ return\ the\ tile\ at\ the\ index\ pos\ if\ there\ is\ one.\r\n\ Else,\ return\ null\r\n
+comment4.params=tile\ pos
+comment4.target=boolean\ place(Tile,\ int)
+comment4.text=\r\n\ Insert\ the\ tile\ at\ position\ pos\ in\ the\ rack,\ if\ there\ is\ room.\r\n\ Puts\ at\ position\ pos\ if\ it\ is\ currently\ empty.\r\n\ If\ there\ is\ no\ room,\ it\ returns\ false.\r\n
+comment5.params=bag
+comment5.target=void\ fill(Bag)
+comment5.text=\r\n\ Fill\ the\ rack\ from\ the\ given\ bag\ of\ tiles\r\n
+comment6.params=
+comment6.target=void\ draw()
+comment6.text=\r\n\ Draw\ the\ rack.\r\n\ Assumes\ the\ graphics\ pane\ has\ been\ cleared\r\n
+numComments=7

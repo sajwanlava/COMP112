@@ -1,0 +1,21 @@
+
+/* Reflection.txt for COMP112
+ * Name:Lavanya Sajwan
+ * Username:sajwanlava
+ * ID:300381661
+ */
+
+Questions for Reflection.
+=========================
+
+1. Briefly list the features that you implemented in your Chat Client.
+- Connecting to a server
+- Logging into a server
+- Leaving a server
+- Kind of joined a channel
+
+
+2. Describe how you tested your program, and discuss how much confidence you have
+that your testing shows that the program works correctly. 
+I can confidently say that I have no confidence in anything I do. I tried to print some information, but I didn't get through much at all so wasn't able to test thoroughly. 
+

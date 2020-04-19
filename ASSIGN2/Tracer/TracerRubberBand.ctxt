@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TracerRubberBand()
+comment1.params=
+comment1.target=void\ redraw()
+comment1.text=\ Draws\ the\ line\ on\ the\ graphics\ pane.\r\n
+comment2.params=arguments
+comment2.target=void\ main(java.lang.String[])
+numComments=3

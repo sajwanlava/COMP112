@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DiagramEditor()
+comment1.params=mouseAction\ x\ y
+comment1.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment10.params=s1\ s2
+comment10.target=boolean\ removeConnection(Shape,\ Shape)
+comment10.text=\ public\ void\ connectShape(double\ x,\ double\ y){\r\n\ \ \ \ x\ \=\ currentShape.getStartx();\r\n\ \ \ \ y\ \=\ currentShape.getStarty();\r\n\r\n}
+comment11.params=x\ y
+comment11.target=void\ connectShape(double,\ double)
+comment12.params=x\ y
+comment12.target=void\ deleteShape(double,\ double)
+comment13.params=changeX\ changeY
+comment13.target=void\ resizeShape(double,\ double)
+comment14.params=args
+comment14.target=void\ main(java.lang.String[])
+comment2.params=newText
+comment2.target=void\ textField(java.lang.String)
+comment3.params=
+comment3.target=void\ drawDrawing()
+comment4.params=
+comment4.target=void\ drawLines()
+comment5.params=x\ y
+comment5.target=Shape\ findShape(double,\ double)
+comment6.params=
+comment6.target=void\ newDrawing()
+comment7.params=x1\ y1\ x2\ y2
+comment7.target=void\ addShape(double,\ double,\ double,\ double)
+comment8.params=
+comment8.target=void\ saveDrawing()
+comment9.params=changeX\ changeY
+comment9.target=void\ selectShape(double,\ double)
+comment9.text=\ public\ void\ loadDrawing(){\r\n\r\n\ \ \ \ shapes\ \=\ new\ ArrayList<Shape>();\r\n\ \ \ \ try\ {\r\n\ \ \ \ Scanner\ sc\ \=\ new\ Scanner\ (new\ File(UIFileChooser.open()));\r\n\ \ \ \ while\ (sc.hasNext()){\r\n\ \ \ \ String\ type\ \=\ sc.next();\r\n\ \ \ \ Color\ RGB\ \=\ new\ Color\ (sc.nextInt(),sc.nextInt(),sc.nextInt());\ \r\n\ \ \ \ if\ (type.equals("Rectangle")){\r\n\ \ \ \ this.shapes.add(new\ Rectangle\ (sc.nextDouble(),\ sc.nextDouble(),\ sc.nextDouble(),\ sc.nextDouble(),RGB));\r\n\ \ \ \ }\r\n\ \ \ \ else\ if\ (type.equals("Oval")){\r\n\ \ \ \ this.shapes.add(new\ Oval\ (sc.nextDouble(),\ sc.nextDouble(),\ sc.nextDouble(),\ sc.nextDouble(),RGB));\r\n\ \ \ \ }\r\n\ \ \ \ }\r\n\ \ \ \ this.drawDrawing();\r\n\ \ \ \ }catch(IOException\ e)\ {UI.printf("File\ Failure\ %s\ \\n",\ e);\r\n\ \ \ \ }\r\n\r\n}
+numComments=15

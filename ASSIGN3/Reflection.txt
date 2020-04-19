@@ -1,0 +1,32 @@
+/* Reflection.txt for COMP112 - 2017T1, Assignment 3
+ * Name:
+ * Username:
+ * ID:
+ */
+
+Questions for Reflection.
+=========================
+
+1.  For the Scrabble game, we recommended using arrays for the rack and the
+board, but ArrayList for the bag.  Why? Compare the strengths and weaknesses of arrays vs ArrayLists.
+Because you're constantly changing the size of a bag so an ArrayList is more appropriate to use.  The board had to be 2D so used a 2D array as an arrayList can't be 2D.
+
+2. There are many different ways that you could have done the checking for a
+valid play in the scrabble game (ie, checking that the working tiles were in a
+row or column with no gaps and connected to the previous tiles).  What would be a good way of going about the design of a tricky method like this?
+I didn't even get up to this part in the assignment so unfortunately I have no idea sorry. 
+
+3. Last week you constructed a list of the key Java programming
+constructs that you used.  Add the important new constructs you used
+this week to that list, with a very brief note about each one.
+2D Arrays - With this you typically use nester loops to process each item in the two different indicies this array type.
+ArrayLists - These can grow/shrink and are a class in libraries.
+Arrays - Have a fixed size and are built into java. It is an objct with a sequence of places. 
+
+
+4. If you learned any more important concepts about programming or Computer
+Recursion is when a method calls upon itself and if you want to get out of the method you have to place a statment in which, when true, it gets returned out from the method.
+Science, add them to your list from last week.
+
+*I did trash this week
+

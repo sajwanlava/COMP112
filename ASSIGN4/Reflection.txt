@@ -1,0 +1,43 @@
+/* Reflection.txt for COMP112 - 2017T1, Assignment 4
+ * Name:
+ * Username:
+ * ID:
+ */
+
+Questions for Reflection.
+=========================
+
+Briefly describe your scheme for representing the state of the board.
+Was it efficient in file size?
+  If so, explain why.
+The scheme I used was Serialization. This is where an object can be represented as a sequency of bites into a file, which then can be Deserialized out of it to recreat the object before it was serialized. I think it was more efficient in file size than just using a scanner to write the arrays in one fle because that representation of just integers would be larger than the binary representation that Java Serialization uses. 
+http://stackoverflow.com/questions/38023660/how-efficient-is-java-serialization
+https://www.tutorialspoint.com/java/java_serialization.htm
+
+Would it still be efficient when there were 100 tiles on the board? 
+  If not, explain why not and suggest a more efficient scheme.
+Because there are significantly more tiles, the serialisation will have to store extra metadata (data that represents other data) of the other class types. A more efficient scheme would be to compress it also. 
+https://en.wikipedia.org/wiki/Serialization
+http://stackoverflow.com/questions/29274254/java-why-is-my-serializable-object-file-size-so-large
+
+Explain how run-length coding could reduce the size of the 
+pbm image below.  What sorts of images would it work badly on? Is it
+possible to make a compression scheme that could reduce the size of any possible
+image?
+
+With the repeated numbers next to each other we could compress the image by writing it like "[P1]10[2]1[10]..." and so on. This will give you a compressed image as the file is much smaller as it originally was. It's a good algorithm to use as most images have identical pixel colours directly next to each other. However it wouldn't be a very efficient algorithm to use on images with a lot of different colours as it wouldn't compress a lot. 
+http://www.stoimen.com/blog/2012/01/09/computer-algorithms-data-compression-with-run-length-encoding/
+http://www.stoimen.com/blog/2012/05/03/computer-algorithms-lossy-image-compression-with-run-length-encoding/ 
+
+P1
+10 10
+1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 1 1 1 1
+1 0 0 0 0 1 1 1 1 1
+1 0 0 0 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 1
+1 0 1 0 1 0 1 0 1 1
+1 0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1 1

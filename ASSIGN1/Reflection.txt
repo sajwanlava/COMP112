@@ -1,0 +1,38 @@
+/* Reflection.txt for COMP112
+ * Name:
+ * Username:
+ * ID:
+ */
+
+Questions for Reflection.
+=========================
+
+1.  If you have used a programming languages before, other than
+Java, say which language, and identify some significant differences
+between it and Java.
+I haven't.
+
+2.  Which part of the two programs did you find the trickiest, and
+why?
+In program one, I found combining the mathematics and coding difficult even though it was a very little part of the code itself. I found it difficult just because I'm not usually use to it. In the second program, I found the mathematics difficult once again, however, this time I understood it, but I could never find a correct enough formula to get the right date. I also got to a point where I was running out of reasonable variable names.
+
+3. Identify all the editing and debugging tools in BlueJ that you have
+found that you think will be helpful while programming and debugging.
+Are there any tools that you have used in other languages that you
+wish you had in BlueJ? Why?
+BlueJ colour codes and numbers the lines which is helpful while editing mistakes. 
+While debugging, compiling is handy as it tells you what the errors are. 
+
+4. List a brief summary of the key Java programming constructs (eg if
+statements, while loops, method headers...) that you have used so far.
+- while loop - if the condition is true, repeat it; stop when the action is false.
+- for loop - cleaner way to loop through certain actions than a while loop
+- if statement - if the confition is true, run through it once.
+- methods with a certain type return a value of the same type.
+- Constructors are NOT method calls in the way that there is no object to call a method on. But they are like method calls that return a value.
+- Scanner is a class in Java which allows a program to read user input from a certain source.
+
+5. Identify any important concepts about programming or Computer
+Science in general that you have learned so far in the course.
+It's not just about coding, a lot of the industry want people whom not only have the knowledge to code, but also to communicate with people, and these such people are usually the team leaders when in the workforce. Also some people, no matter how hard they try, always find coding difficult.
+

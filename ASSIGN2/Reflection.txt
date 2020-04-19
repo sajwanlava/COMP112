@@ -1,0 +1,33 @@
+/* Reflection.txt for COMP112 - 2017T1, Assignment 2
+ * Name:
+ * Username:
+ * ID:
+ */
+
+Questions for Reflection.
+=========================
+
+1.  What is the advantage of making a DodgemCar class?  Why is it better
+than putting all the code in a single DodgemGame class, like we did
+with the FloorCleaner in Assignment 1?
+It's easier to deal with little bits of code than all of it in one class because it's easier to keep track
+of what you're coding and when debuggging, you are able to find the problem instead of going through many lines of code 
+if dealing with a very large amount of code all in one class.
+
+
+2. The assignment split the development of both programs into three
+stages (Core, Completion, and Challenge).  This was partly for
+marking, but it was also intended to make it easier to do the
+program.  Why does it it help to have several stages? What Software Engineering
+methodology does this reflect?
+This somewhat is similar to the engineering design cycle in which that you research before starting the different sections by reading the information given, then you start planning, then coding, and then testing the results and then we communicate in these reflections. This cycle lets you have multiple iterations in which you can go back and forth between different stages of the cycle which in turn helps with keeping on track with different stages of the assignment.
+
+3. Last week you constructed a list of the key Java programming
+constructs that you used.  Add the important new constructs you used
+this week to that list, with a very brief note about each one.
+Variables can be either primitives or objects and if it is a primitive variable it holds a peice of memory of a certain value and if it is the other, it references the actual object. 
+
+4. If you learned any more important concepts about programming or Computer
+Science, add them to your list from last week.
+= assigns and == means it is the same as.
+

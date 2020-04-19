@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rack()
+comment1.params=x\ y
+comment1.target=boolean\ on(double,\ double)
+comment2.params=x\ y
+comment2.target=int\ index(double,\ double)
+comment3.params=pos
+comment3.target=Tile\ pickup(int)
+comment4.params=tile\ pos
+comment4.target=boolean\ place(Tile,\ int)
+comment5.params=bag
+comment5.target=void\ fill(Bag)
+comment6.params=
+comment6.target=void\ draw()
+comment7.params=
+comment7.target=void\ reset()
+numComments=8

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=boolean\ on(double,\ double)
+comment0.text=Is\ the\ position\ (x,y)\ on\ the\ board
+comment1.params=x\ y
+comment1.target=int[]\ rowCol(double,\ double)
+comment1.text=\r\n\ Return\ the\ row/col\ corresponding\ to\ the\ point\ x,y.\r\n
+comment2.params=row\ col
+comment2.target=Tile\ pickup(int,\ int)
+comment2.text=\r\n\ Pickup\ tile\ from\ the\ board,\ if\ the\ board\ position\ contains\r\n\ a\ working\ tile\ and\ return\ it.\r\n
+comment3.params=tile\ row\ col
+comment3.target=boolean\ place(Tile,\ int,\ int)
+comment3.text=\r\n\ Place\ the\ tile\ on\ the\ board,\ if\ the\ board\ position\ is\ empty\r\n
+comment4.params=
+comment4.target=void\ commit()
+comment4.text=\r\n\ Commit\ all\ the\ workingTiles\ to\ the\ board\r\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\r\n\ Draw\ the\ board.\r\n\ Assumes\ that\ the\ graphics\ pane\ has\ been\ cleared\r\n
+comment6.params=
+comment6.target=void\ reset()
+numComments=7
